@@ -13,12 +13,9 @@ html {
 
 .nav-bar {
   position: fixed;
-  /* min-width: 291px; */
-  top: 0px;
-  left: 0px;
   width: 22%;
   height: 100%;
-  border-right:1px solid rgb(77, 72, 72);
+  border-right: 1px solid darkgray;
 }
 
 .nav {
@@ -26,16 +23,14 @@ html {
 }
 
 .nav-bar h1 {
-  color: #000000;
+  color: #000;
   margin: auto;
-  /* text-align: left; */
   padding: 6px auto;
   font-size: 1.3rem;
 }
 
-
 h1 {
-  padding-top:1rem;
+  padding: 1rem;
   color: #000;
   margin: 10px;
   font-size: 1.8em;
@@ -48,18 +43,9 @@ h1 {
   overflow: scroll;
 }
 
-ul {
-  display: block;
-  margin-block-start: 16px;
-  margin-block-end: 16px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;   
-}
-
 .nav-bar ul li {
-  border-bottom: 1px solid rgb(106, 95, 95);
-  padding: 10px;
+  border-bottom: 1px solid black;
+  padding: 8px;
 }
 
 .nav-bar ul li a {
@@ -67,7 +53,7 @@ ul {
   font-size: 16px;
   padding: 6px auto;
   color: gray;
-   font-family: poppins, sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .main-section {
@@ -96,4 +82,3 @@ code {
   background-color: #f0ebeb;
   padding: 19px;
 }
-
