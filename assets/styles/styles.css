@@ -93,12 +93,7 @@ code {
   display: block;
   margin: 10px;
   border-radius: 3px;
-   background-color: #f0ebeb;
-   padding: 19px;
+  background-color: #f0ebeb;
+  padding: 19px;
 }
-/* media */
-@media screen and (max-width: 770px) {
-    
-}
-
 
