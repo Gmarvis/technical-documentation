@@ -96,5 +96,9 @@ code {
    background-color: #f0ebeb;
    padding: 19px;
 }
+/* media */
+@media screen and (max-width: 770px) {
+    
+}
 
 
