@@ -25,15 +25,17 @@ html {
   display: block;
 }
 
-.nav h1 {
-  color: #000;
-  margin: 16px;
-  text-align: center;
-  font-size: auto;
+.nav-bar h1 {
+  color: #000000;
+  margin: auto;
+  /* text-align: left; */
+  padding: 6px auto;
+  font-size: 1.3rem;
 }
 
 
 h1 {
+  padding-top:1rem;
   color: #000;
   margin: 10px;
   font-size: 1.8em;
@@ -62,7 +64,8 @@ ul {
 
 .nav-bar ul li a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
+  padding: 6px auto;
   color: gray;
    font-family: poppins, sans-serif;
 }
